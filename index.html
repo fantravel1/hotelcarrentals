@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book a hotel. Add a car. Travel smarter. HotelCarRentals helps you plan the perfect trip with car rental intelligence, parking reality guides, and hotel + car bundling strategies.">
+    <meta name="keywords" content="hotel car rental, airport car rental fees, hotel parking cost, downtown vs airport car rental, car rental insurance, car optional neighborhoods, hotel car bundle, car rental mistakes, do I need a car">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="HotelCarRentals - Book smarter. Drive only when it matters.">
+    <meta property="og:description" content="Most people don't need a car for their whole trip. Rent the car when you need it — not when they want you to.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&h=630&fit=crop">
+
+    <!-- Schema.org structured data for AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "HotelCarRentals",
+      "description": "Hotel + car bundling intelligence platform",
+      "url": "https://hotelcarrentals.com",
+      "logo": "https://hotelcarrentals.com/logo.png",
+      "sameAs": [],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hotelcarrentals.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <title>HotelCarRentals - Book a hotel. Add a car. Travel smarter.</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="/" class="logo">
+                    <span class="logo-icon">🚗</span>
+                    <span class="logo-text">HotelCarRentals</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="coming-soon.html">City Guides</a></li>
+                    <li><a href="coming-soon.html">Airport Strategy</a></li>
+                    <li><a href="coming-soon.html">Parking Truth</a></li>
+                    <li><a href="coming-soon.html">Car Days Planner</a></li>
+                    <li><a href="coming-soon.html" class="nav-cta">Search Hotels</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=2000&q=80" alt="Scenic coastal road trip" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title" data-aos="fade-up">Book smarter.<br>Drive only when it matters.</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">Most people don't need a car for their whole trip.<br>They need it for the <em>right days</em>, in the <em>right places</em>, with the <em>right pickup strategy</em>.</p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="200">
+                <a href="coming-soon.html" class="btn btn-primary btn-lg">Find Your Perfect Hotel + Car</a>
+                <a href="#how-it-works" class="btn btn-secondary btn-lg">How It Works</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat">
+                    <div class="stat-number">$327</div>
+                    <div class="stat-label">Avg. savings per trip</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2,400+</div>
+                    <div class="stat-label">Cities covered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Traveler satisfaction</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section class="section problem-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">The Hidden Problem</span>
+                <h2>Why Most Travelers Lose Money on Car Rentals</h2>
+                <p class="section-intro">Airport fees, parking nightmares, and driving on days you don't need to.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="problem-icon">💸</div>
+                    <h3>Airport Pickup Fees</h3>
+                    <p>Airport car rental taxes can add <strong>20-40%+ to your bill</strong>. Downtown pickup is often cheaper — but nobody tells you this.</p>
+                    <a href="coming-soon.html" class="card-link">Learn airport vs downtown strategy →</a>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="problem-icon">🅿️</div>
+                    <h3>Hidden Parking Costs</h3>
+                    <p>That $150/night hotel? Add <strong>$45/day for parking</strong>. Or worse: valet-only with no street parking allowed.</p>
+                    <a href="coming-soon.html" class="card-link">See parking reality by city →</a>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="problem-icon">🗓️</div>
+                    <h3>Wrong Rental Days</h3>
+                    <p>Paying for a car while exploring walkable neighborhoods. The <strong>average traveler wastes 3 rental days</strong> per trip.</p>
+                    <a href="coming-soon.html" class="card-link">Plan car days vs no-car days →</a>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="problem-icon">🚫</div>
+                    <h3>Wrong Neighborhood</h3>
+                    <p>Staying in the "cool downtown" area that's <strong>impossible to drive in</strong>. One-way streets, no parking, congestion charges.</p>
+                    <a href="coming-soon.html" class="card-link">Find car-friendly neighborhoods →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">How HotelCarRentals Works</span>
+                <h2>Trip Intelligence, Not Just Booking</h2>
+                <p class="section-intro">We help you architect better trips with smarter hotel + car decisions.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step" data-aos="fade-right">
+                    <div class="step-visual">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80" alt="City destination planning" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">01</div>
+                        <h3>Tell Us Your Destination</h3>
+                        <p>Pick your city and travel dates. We analyze parking costs, driving difficulty, public transit quality, and car-optional neighborhoods.</p>
+                        <ul class="check-list">
+                            <li>Real parking cost data by hotel</li>
+                            <li>Neighborhood walkability scores</li>
+                            <li>Public transit accessibility</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-left">
+                    <div class="step-content">
+                        <div class="step-number">02</div>
+                        <h3>Discover Car-Smart Hotels</h3>
+                        <p>Not all hotels are equal. We show you which have honest parking policies, easy rental pickup access, and EV charging.</p>
+                        <ul class="check-list">
+                            <li>HotelCarRentals Verified badge</li>
+                            <li>Transparent parking fees</li>
+                            <li>Proximity to rental locations</li>
+                        </ul>
+                    </div>
+                    <div class="step-visual">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80" alt="Modern hotel with parking" loading="lazy">
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-right">
+                    <div class="step-visual">
+                        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80" alt="Car rental selection" loading="lazy">
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">03</div>
+                        <h3>Plan Your Car Days</h3>
+                        <p>Get a custom itinerary showing exactly when you need a car — and when you don't. Save money by renting only for the right days.</p>
+                        <ul class="check-list">
+                            <li>Day-by-day trip architecture</li>
+                            <li>Airport vs downtown pickup timing</li>
+                            <li>Weekend vs weekday pricing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-left">
+                    <div class="step-content">
+                        <div class="step-number">04</div>
+                        <h3>Book Everything in One Place</h3>
+                        <p>Bundle your hotel and car rental with full transparency. No hidden fees, no surprise parking charges, no airport tax traps.</p>
+                        <ul class="check-list">
+                            <li>All-in pricing (no surprises)</li>
+                            <li>Free cancellation on most bookings</li>
+                            <li>24/7 travel support</li>
+                        </ul>
+                    </div>
+                    <div class="step-visual">
+                        <img src="https://images.unsplash.com/photo-1483401757487-2ced3fa77952?w=800&q=80" alt="Successful booking confirmation" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AEO Questions Section -->
+    <section class="section aeo-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Questions Answered</span>
+                <h2>Everything You Need to Know About Hotel + Car Travel</h2>
+                <p class="section-intro">Real answers to the questions travelers actually ask.</p>
+            </div>
+            <div class="aeo-grid">
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Do I need a rental car in [CITY]?</h3>
+                    <p>It depends on your itinerary. Cities like New York and San Francisco are better without a car in the city center. But you might need one for day trips to wine country, national parks, or coastal drives.</p>
+                    <p><strong>Our recommendation:</strong> Use our City Intelligence tool to see if your planned activities require a car. Most travelers need a car for 2-3 days max.</p>
+                    <a href="coming-soon.html" class="aeo-link">Check your destination →</a>
+                </div>
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Should I rent a car at the airport or downtown?</h3>
+                    <p>Airport rentals charge facility fees, concession fees, and local taxes that can add 25-40% to your total. Downtown locations are often cheaper and more convenient if you don't need a car immediately.</p>
+                    <p><strong>Best strategy:</strong> Take a taxi/Uber to your hotel, explore car-free for a few days, then pick up a rental downtown for your road trip days.</p>
+                    <a href="coming-soon.html" class="aeo-link">See airport fee breakdown →</a>
+                </div>
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>What hotels make car rental easy?</h3>
+                    <p>Look for hotels with free parking (or reasonable rates), proximity to rental locations, easy highway access, and honest parking policies. Hotels near downtown rental offices are ideal for "car days" strategy.</p>
+                    <p><strong>HotelCarRentals Verified:</strong> We badge hotels that excel at car rental convenience, transparent parking costs, and flexible access.</p>
+                    <a href="coming-soon.html" class="aeo-link">Browse verified hotels →</a>
+                </div>
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3>How much does hotel parking cost?</h3>
+                    <p>It varies wildly. Budget hotels: $10-20/day. Downtown luxury hotels: $40-75/day (or more). Valet-only can add $60+/day. Some hotels charge resort parking fees on top of nightly rates.</p>
+                    <p><strong>Hidden costs:</strong> In/out privileges (extra fees each time you leave), mandatory valet, overnight "storage" fees, and EV charging markups.</p>
+                    <a href="coming-soon.html" class="aeo-link">See parking costs by city →</a>
+                </div>
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="500">
+                    <h3>How do I plan a trip with car days and no-car days?</h3>
+                    <p>Start with your itinerary. Mark days you'll be exploring the city (no car needed). Then identify days for road trips, national parks, or areas with poor transit. Rent only for those specific days.</p>
+                    <p><strong>Example:</strong> Barcelona 5-day trip → Days 1-3 metro/walk in the city, Days 4-5 rent a car for Costa Brava and return it before flying home.</p>
+                    <a href="coming-soon.html" class="aeo-link">Use our Car Days Planner →</a>
+                </div>
+                <div class="aeo-card" data-aos="fade-up" data-aos-delay="600">
+                    <h3>What is the real cost of renting a car?</h3>
+                    <p>The advertised rate is just the start. Add: insurance (if not covered by credit card), fuel (often with ripoff pre-pay policies), tolls, parking, airport/local taxes, and potential damage fees.</p>
+                    <p><strong>Real example:</strong> $30/day advertised → actual cost $65-85/day after all fees in high-tax markets like Las Vegas or Miami.</p>
+                    <a href="coming-soon.html" class="aeo-link">See full cost breakdown →</a>
+                </div>
+            </div>
+            <div class="more-questions" data-aos="fade-up">
+                <a href="coming-soon.html" class="btn btn-outline">View All 50+ Questions Answered</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Signature Features</span>
+                <h2>Tools That Actually Help You Save</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card feature-card-large" data-aos="zoom-in">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80" alt="Road trip planning" loading="lazy">
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-badge">Most Popular</div>
+                        <h3>Car Days Itinerary Planner</h3>
+                        <p>Our signature tool. Tell us your trip, we'll show you exactly which days you should have a car — and which days you shouldn't. Most travelers waste 3+ rental days per trip.</p>
+                        <ul class="feature-benefits">
+                            <li>Day-by-day recommendations</li>
+                            <li>Cost comparison (car vs transit)</li>
+                            <li>Neighborhood-specific advice</li>
+                            <li>Pickup/dropoff timing optimization</li>
+                        </ul>
+                        <a href="coming-soon.html" class="btn btn-primary">Plan My Trip</a>
+                    </div>
+                </div>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">📊</div>
+                    <h3>HotelCarRentals Index™</h3>
+                    <p>Every hotel scored for car practicality: parking cost, pickup convenience, driving difficulty, EV support, and more.</p>
+                    <a href="coming-soon.html" class="feature-link">See how we score →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">✅</div>
+                    <h3>Verified Hotels</h3>
+                    <p>Hotels with honest parking, easy car access, and transparent policies earn our trust badge.</p>
+                    <a href="coming-soon.html" class="feature-link">Browse verified hotels →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">💰</div>
+                    <h3>Airport Fee Calculator</h3>
+                    <p>See the real cost of airport pickup vs downtown. Some airports add $200+ in hidden fees per week.</p>
+                    <a href="coming-soon.html" class="feature-link">Calculate your savings →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">🅿️</div>
+                    <h3>Parking Reality Guides</h3>
+                    <p>Honest breakdowns of parking costs, valet vs self-park, street parking rules, and overnight safety by city.</p>
+                    <a href="coming-soon.html" class="feature-link">Check your city →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">🔋</div>
+                    <h3>EV-Friendly Hotels</h3>
+                    <p>Find hotels with real EV charging (not just "EV available"). See costs, charging speeds, and availability.</p>
+                    <a href="coming-soon.html" class="feature-link">Find EV hotels →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Car-Optional Neighborhoods</h3>
+                    <p>Neighborhoods where you can walk/transit most of the time, but still easily grab a car for day trips.</p>
+                    <a href="coming-soon.html" class="feature-link">Explore neighborhoods →</a>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Rental Truth Library</h3>
+                    <p>No-BS guides: insurance scams, fuel policies, toll systems, damage disputes, what to photograph before driving off.</p>
+                    <a href="coming-soon.html" class="feature-link">Read truth guides →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations Section -->
+    <section class="section destinations-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Popular Destinations</span>
+                <h2>Hotel + Car Intelligence by City</h2>
+                <p class="section-intro">Detailed guides for 2,400+ cities worldwide</p>
+            </div>
+            <div class="destinations-grid">
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80" alt="Los Angeles skyline" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Los Angeles</h3>
+                        <p>Car recommended • Parking $25-45/day</p>
+                        <span class="destination-meta">Airport fees: +32% • Best pickup: Downtown</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=800&q=80" alt="New York City" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>New York City</h3>
+                        <p>Car optional • Parking $45-75/day</p>
+                        <span class="destination-meta">Skip airport pickup • Day trips only</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80" alt="Miami beach" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Miami</h3>
+                        <p>Flexible • Parking $18-35/day</p>
+                        <span class="destination-meta">Airport fees: +38% • Consider Beach pickup</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800&q=80" alt="San Francisco hills" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>San Francisco</h3>
+                        <p>Car for day trips • Parking $35-55/day</p>
+                        <span class="destination-meta">Downtown impossible • Rent for Wine Country</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80" alt="Rome architecture" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Rome</h3>
+                        <p>No car in city • For Tuscany trips</p>
+                        <span class="destination-meta">ZTL zones strict • Rent outside center</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80" alt="Tokyo streets" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Tokyo</h3>
+                        <p>Car optional • For Mt. Fuji/Hakone</p>
+                        <span class="destination-meta">Transit excellent • Rent for countryside</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?w=800&q=80" alt="Barcelona beach" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Barcelona</h3>
+                        <p>Days 4-5 car recommended</p>
+                        <span class="destination-meta">Perfect for Costa Brava • Parking €20-35/day</span>
+                    </div>
+                </a>
+                <a href="coming-soon.html" class="destination-card" data-aos="zoom-in" data-aos-delay="800">
+                    <div class="destination-image">
+                        <img src="https://images.unsplash.com/photo-1567342978804-97d028135dbe?w=800&q=80" alt="Orlando theme parks" loading="lazy">
+                        <div class="destination-overlay"></div>
+                    </div>
+                    <div class="destination-content">
+                        <h3>Orlando</h3>
+                        <p>Car highly recommended</p>
+                        <span class="destination-meta">Theme parks spread out • Free parking common</span>
+                    </div>
+                </a>
+            </div>
+            <div class="destinations-cta" data-aos="fade-up">
+                <a href="coming-soon.html" class="btn btn-outline btn-lg">View All 2,400+ Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rental Truth Section -->
+    <section class="section truth-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Rental Truth Library</span>
+                <h2>No-BS Guides to Avoid Getting Ripped Off</h2>
+                <p class="section-intro">Everything rental companies don't want you to know</p>
+            </div>
+            <div class="truth-grid">
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up">
+                    <div class="truth-number">01</div>
+                    <h3>What to Photograph Before Leaving the Lot</h3>
+                    <p>Document every scratch, dent, tire condition, fuel level, and mileage. Take photos of the rental agreement terms. This prevents 90% of damage disputes.</p>
+                    <span class="truth-tag">Essential</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="truth-number">02</div>
+                    <h3>The Real Cost of Rental Car Insurance</h3>
+                    <p>Collision Damage Waiver (CDW) costs $15-35/day. Your credit card likely covers this. Personal Auto Insurance may extend to rentals. Don't double-pay.</p>
+                    <span class="truth-tag">Money Saver</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="truth-number">03</div>
+                    <h3>Fuel Policies Explained: Full-to-Full vs Prepay</h3>
+                    <p>Full-to-full: return with same fuel level (best option). Prepay: you pay for a full tank upfront at inflated prices. Never choose "we'll fill it for you."</p>
+                    <span class="truth-tag">Avoid Scams</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="truth-number">04</div>
+                    <h3>How Toll Roads Work by Country</h3>
+                    <p>USA: E-ZPass/SunPass systems. Europe: Vignettes, autopay, or toll booths. Rental companies charge admin fees for tolls. Buy your own toll pass when possible.</p>
+                    <span class="truth-tag">Country Guide</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="truth-number">05</div>
+                    <h3>Airport Rental Fees Breakdown</h3>
+                    <p>Customer Facility Charges ($8-15/day), Concession Recovery Fees (10-15%), local/state taxes (8-20%), stadium taxes, tourism taxes. Total: 25-40% extra.</p>
+                    <span class="truth-tag">Fee Truth</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="truth-number">06</div>
+                    <h3>What Happens After a Rental Car Accident</h3>
+                    <p>Stop immediately. Call police (required in most countries). Document everything. Call rental company. Don't admit fault. Check your coverage before signing damage waivers.</p>
+                    <span class="truth-tag">Emergency Guide</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="truth-number">07</div>
+                    <h3>Common Rental Car Scams to Avoid</h3>
+                    <p>Forced upgrades, fake damage claims, mandatory insurance lies, prepaid fuel scams, cleaning fee traps, and "you scratched the windshield" cons.</p>
+                    <span class="truth-tag">Scam Alert</span>
+                </a>
+                <a href="coming-soon.html" class="truth-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="truth-number">08</div>
+                    <h3>International Driver's Permit: When You Actually Need One</h3>
+                    <p>Required in Japan, required by some EU rental companies, not required in UK/Ireland/Canada/Australia. Check your destination's rules — rental companies often lie about this.</p>
+                    <span class="truth-tag">Legal Requirement</span>
+                </a>
+            </div>
+            <div class="truth-cta" data-aos="fade-up">
+                <a href="coming-soon.html" class="btn btn-primary btn-lg">Read All Truth Guides</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Testimonials -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Traveler Stories</span>
+                <h2>Real Savings from Real People</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Saved $340 on our LA trip by picking up downtown instead of LAX. The airport fees were insane. HotelCarRentals showed me exactly how much extra I'd pay."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">JM</div>
+                        <div>
+                            <div class="testimonial-name">Jessica M.</div>
+                            <div class="testimonial-location">Los Angeles trip, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The Car Days Planner changed how I travel. I only rented for 3 days instead of 7 in Barcelona. Used metro in the city, car for Costa Brava. Perfect."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">DR</div>
+                        <div>
+                            <div class="testimonial-name">David R.</div>
+                            <div class="testimonial-location">Barcelona, Spain</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally found a hotel in SF with honest parking costs. Not hidden until checkout. Not valet-only. Just $22/day self-park. HotelCarRentals Verified badge is legit."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">AL</div>
+                        <div>
+                            <div class="testimonial-name">Amanda L.</div>
+                            <div class="testimonial-location">San Francisco, CA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The toll road guide for Portugal saved me from rental company ripoff. Bought my own Via Verde pass for €2 instead of €8/day admin fees from the rental desk."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">MK</div>
+                        <div>
+                            <div class="testimonial-name">Michael K.</div>
+                            <div class="testimonial-location">Lisbon & Algarve</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="cta-background">
+            <img src="https://images.unsplash.com/photo-1473163928189-364b2c4e1135?w=2000&q=80" alt="Beautiful road trip destination" loading="lazy">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container cta-content">
+            <h2 data-aos="fade-up">Ready to Travel Smarter?</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Join thousands of travelers who save money with better hotel + car decisions.</p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="coming-soon.html" class="btn btn-primary btn-lg">Plan Your Trip Now</a>
+                <a href="coming-soon.html" class="btn btn-secondary-white btn-lg">Browse City Guides</a>
+            </div>
+            <p class="cta-note" data-aos="fade-up" data-aos-delay="300">Free to explore. No credit card required.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="footer-logo">
+                        <span class="logo-icon">🚗</span>
+                        <span class="logo-text">HotelCarRentals</span>
+                    </a>
+                    <p class="footer-tagline">Book a hotel. Add a car. Travel smarter.</p>
+                    <p class="footer-description">Trip infrastructure for better hotel + car decisions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Cities</h4>
+                    <ul>
+                        <li><a href="coming-soon.html">Los Angeles</a></li>
+                        <li><a href="coming-soon.html">New York City</a></li>
+                        <li><a href="coming-soon.html">Miami</a></li>
+                        <li><a href="coming-soon.html">Orlando</a></li>
+                        <li><a href="coming-soon.html">San Francisco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Tools & Guides</h4>
+                    <ul>
+                        <li><a href="coming-soon.html">Car Days Planner</a></li>
+                        <li><a href="coming-soon.html">Airport Fee Calculator</a></li>
+                        <li><a href="coming-soon.html">Parking Reality Guides</a></li>
+                        <li><a href="coming-soon.html">Rental Truth Library</a></li>
+                        <li><a href="coming-soon.html">HotelCarRentals Index</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="coming-soon.html">How It Works</a></li>
+                        <li><a href="coming-soon.html">About Us</a></li>
+                        <li><a href="coming-soon.html">Contact</a></li>
+                        <li><a href="coming-soon.html">FAQ</a></li>
+                        <li><a href="coming-soon.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 HotelCarRentals. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="coming-soon.html">Privacy Policy</a>
+                    <span class="footer-separator">•</span>
+                    <a href="coming-soon.html">Terms of Service</a>
+                    <span class="footer-separator">•</span>
+                    <a href="coming-soon.html">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
